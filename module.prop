@@ -1,7 +1,6 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v1.6
-versionCode=7
-author=Zackptg5
-description=
-support=https://forum.xda-developers.com/apps/magisk/MMT-Extended
+id=bootctl-binary
+name=Bootctl Binary
+version=v1.0
+versionCode=1
+author=Roee Hershberg
+description=Adds the bootctl binary for A/B slots handling
