@@ -1,6 +1,6 @@
 id=bootctl-binary
 name=Bootctl Binary
-version=v2.1
-versionCode=3
+version=v2.2
+versionCode=4
 author=Roee Hershberg
 description=Adds the bootctl binary for A/B slots handling
