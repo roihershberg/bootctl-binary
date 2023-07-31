@@ -12,7 +12,7 @@
 # Uncomment DYNLIB if you want libs installed to vendor for oreo+ and system for anything older
 # Uncomment DEBUG if you want full debug logs (saved to /sdcard)
 MINAPI=21
-MAXAPI=31
+MAXAPI=33
 #DYNLIB=true
 #DEBUG=true
 
@@ -59,6 +59,7 @@ set_permissions() {
   # set_perm /data/local/tmp/file.txt 0 0 644
   
   set_perm $MODPATH/system/bin/bootctl 0 0 750
+  set_perm $MODPATH/system/bin/bootctl.bin 0 0 750
 }
 
 ##########################################################################################
